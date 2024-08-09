@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(39, 39, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit";
+}
+
+main {
+    width: 35%;
+    height: 63vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    border-radius: 0.5em;
+    padding-top: 1.5rem;
+    color: rgb(38, 38, 131);
+}
+
+.center {
+    width: 90%;
+}
+
+#div1 {
+    padding-bottom: 0.5rem;
+    margin-bottom: 8.5em;
+    border-bottom: 2px rgb(144, 144, 144) solid;
+}
+
+#div2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#div2 h3 {
+    font-weight: 500;
+}
+
+#div3 {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    margin-bottom: 6em;
+}
+
+button {
+    background-color: rgb(38, 38, 131);
+    border: none;
+    color: white;
+    padding: 0.7em 4em;
+    border-radius: 0.3em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(38, 38, 131, 0.668);
+}
+
+#div4 {
+    display: flex;
+    justify-content: center;
+}
+
+.page2-divs {
+    display: none;
+    width: 90%;
+    font-weight: 600;
+}
+
+#page2-div1 {
+    margin-bottom: 1em;
+}
+
+.options {
+    height: 2.5em;
+    align-items: center;
+    padding-left: 1em;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 0.3em;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.options2 {
+    height: 2.5em;
+    align-items: center;
+    padding-left: 1em;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 0.3em;
+    margin-bottom: 1.5em;
+    cursor: not-allowed;
+}
+
+.options:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#last-op {
+    margin-bottom: 2em;
+}
+
+#next {
+   justify-content: center;
+}
+
+.correct {
+    background-color: rgba(62, 183, 121, 0.781);
+    color: black;
+}
+
+.wrong {
+    background-color: rgba(255, 55, 55, 0.666);
+    color: black;
+}
+
+.result {
+    width: 90%;
+    font-weight: 600;
+    margin-bottom: 3em;
+}
